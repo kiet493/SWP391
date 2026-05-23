@@ -1,0 +1,286 @@
+# ============================================
+# FruitShop E-Commerce - Gitignore
+# ============================================
+# Optimized for Java Web/Maven Project
+# IDE: IntelliJ, Eclipse, VS Code, Cursor
+# Server: Apache Tomcat
+# Database: MySQL
+# ============================================
+
+# ============================================
+# Sensitive Configuration Files
+# ============================================
+# DO NOT PUSH THESE FILES - Contains credentials
+src/main/resources/config.properties
+src/main/resources/config.local.properties
+src/main/resources/application-local.properties
+src/main/resources/credentials.properties
+src/main/resources/db.properties
+*.env
+.env
+.env.local
+.env.*.local
+secret.properties
+
+# ============================================
+# Compiled Class Files
+# ============================================
+*.class
+
+# ============================================
+# Package Files
+# ============================================
+*.jar
+*.war
+*.ear
+*.rar
+*.tar
+*.zip
+
+# ============================================
+# Maven - Build & Target
+# ============================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+mvnw
+mvnw.cmd
+
+# ============================================
+# Gradle (if using)
+# ============================================
+.gradle/
+gradle/
+build/
+
+# ============================================
+# IntelliJ IDEA
+# ============================================
+.idea/
+*.iws
+*.iml
+*.ipr
+*.ips
+out/
+generated/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# ============================================
+# Eclipse / STS
+# ============================================
+.classpath
+.project
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.factorypath
+.sts4-cache/
+
+# ============================================
+# NetBeans
+# ============================================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ============================================
+# VS Code / Cursor
+# ============================================
+.vscode/
+*.code-workspace
+*.code-workspace-local
+
+# ============================================
+# JDeveloper / Oracle
+# ============================================
+.jdeveloper/
+*.jdeveloper/
+.ojdk/
+
+# ============================================
+# Apache Tomcat
+# ============================================
+tomcat/
+logs/
+temp/
+webapps/
+work/
+wtpwebapps/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+logs/
+*.log.*
+
+# ============================================
+# Database Files
+# ============================================
+*.sqlite
+*.db
+*.sqlite3
+*.mdf
+*.ldf
+
+# ============================================
+# OS Generated Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+Thumbs.db:encryptable
+
+# ============================================
+# Windows
+# ============================================
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# ============================================
+# Linux
+# ============================================
+*~
+
+# ============================================
+# Sensitive Configuration Files
+# ============================================
+# DO NOT PUSH THESE FILES
+src/main/resources/config.properties
+src/main/resources/config.local.properties
+src/main/resources/application-local.properties
+src/main/resources/credentials.properties
+*.env
+.env
+.env.local
+.env.*.local
+
+# ============================================
+# Uploaded Files (Runtime Generated)
+# ============================================
+uploads/
+user_uploads/
+temp_uploads/
+product_images/
+avatar_uploads/
+
+# ============================================
+# Temporary Files
+# ============================================
+*.tmp
+*.bak
+*.old
+*.temp
+*.cache
+*.swp
+*.swo
+*~
+.#*
+.#*/
+
+# ============================================
+# Test Reports
+# ============================================
+test-output/
+surefire-reports/
+failsafe-reports/
+spotbugs/
+jacoco/
+
+# ============================================
+# Build Artifacts
+# ============================================
+build/
+dist/
+install/
+tmp/
+work/
+
+# ============================================
+# SSL Certificates (if any)
+# ============================================
+*.pem
+*.keystore
+*.truststore
+*.p12
+*.jks
+
+# ============================================
+# IDE Backup Files
+# ============================================
+*.orig
+*.bak.1
+*.bak.2
+*_backup*
+*_COPYING*
+*_COPYING.*
+
+# ============================================
+# External Libraries (if not using Maven)
+# ============================================
+lib/
+libs/
+external/
+WEB-INF/lib/
+
+# ============================================
+# Spring Boot Specific
+# ============================================
+*.pid
+
+# ============================================
+# Node.js (if frontend build exists)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================
+# IDE Specific
+# ============================================
+*.orig
+*.bak
+
+# ============================================
+# .gitkeep files to preserve empty directories
+# ============================================
+# Uncomment if you want to track empty dirs
+# !**/src/main/resources/.gitkeep
+# !**/src/main/webapp/assets/.gitkeep
